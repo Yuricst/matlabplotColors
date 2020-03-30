@@ -1,0 +1,60 @@
+%% Define additional colors for Matlab plotting
+% ================================================================ %
+% Method: 
+% 	call this script internally before using the plot() (or similar) function
+%	>> plot(<x>, <y>, 'color', '<color_name>')
+% Eample:
+%	>> plot(0,0,'color',matlabB);
+%	
+% Available color names:
+%	MATLAB default colors (default color when no specification is provided)
+%		matlabB : default Matlab blue
+%		matlabR : default Matlab red
+%		matlabY : default Matlab yellow
+%		matlabM : default Matlab purple
+%		matlabG : default Matlab green
+%		matlabC : default Matlab cian
+%		matlabB : default Matlab brown
+%
+%	Google colors
+%		googleB 
+%		googleG
+%		googleR
+%		googleY
+%
+%	Japan theme colors
+%		yamabuki
+%		daidai
+%			
+% Yuri Shimane, 2020/03/27
+% ================================================================ %
+
+% ===== MATLAB DEFAULT COLORS ===== %
+matlabB = '#0072BD';  % blue
+matlabR = '#D95319';  % red
+matlabY = '#EDB120';  % yellow (orange)
+matlabP = '#7E2F8E';  % purple
+matlabG = '#77AC30';  % green
+matkabC = '#4DBEEE';  % cyan (light blue)
+matlabM = '#A2142F';  % maroon
+
+% ===== JAPAN COLORS ===== %
+% https://mag.japaaan.com/archives/8397
+japanB = '#284a6a';  % ai (?)
+japanY = '#e9ab14';  % yamabuki ()
+japanW = '#ebe8dc';  % gofun ()
+
+japanM = 
+
+japanP = '#644b7a';  % ayame ()
+
+japanK = '#242830';  % tetsukon (??)
+
+% ===== GOOGLE COLORS ===== %
+googleB = '#4285f4';  % Google logo blue
+googleR = '#ea4335';  % Google logo red
+googleY = '#fbbc05';  % Google logo yellow
+googleG = '#34a853';  % Google logo green
+
+
+
